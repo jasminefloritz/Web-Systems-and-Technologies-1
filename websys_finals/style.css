@@ -1,0 +1,339 @@
+/* Whole page setup */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0d0ff; /* slightly darker light purple background */
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  width: 33%;
+  min-width: 320px;
+  max-width: 420px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(107, 33, 168, 0.3); /* darker purple shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Header styling */
+.header {
+  background-color: #6b21a8; /* darker purple */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  box-shadow: 0 2px 4px rgba(107, 33, 168, 0.4);
+  margin-bottom: 20px;
+}
+
+/* Header title and links */
+.header-title {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header-links a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-links a:hover {
+  text-decoration: underline;
+}
+
+/* Forms */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #a78bfa; /* darker light purple border */
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+/* Buttons */
+button,
+.action-links a {
+  width: 100%;
+  background-color: #6b21a8; /* darker purple */
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  margin: 8px 0;
+  border-radius: 6px;
+}
+
+button:hover,
+.action-links a:hover {
+  background-color: #581c87; /* even darker purple on hover */
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+table th {
+  background-color: #6b21a8; /* darker purple */
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+
+table td {
+  padding: 8px;
+  border-bottom: 1px solid #d8b4fe; /* darker light purple line */
+}
+
+table tr:nth-child(even) {
+  background-color: #e9d5ff; /* slightly darker lavender */
+}
+
+/* Profile picture */
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Headings */
+h2 {
+  text-align: center;
+  color: #6b21a8; /* darker purple */
+  margin-bottom: 20px;
+}
+ /* Modern Registration Form */
+       .register-container {
+           width: 33%;
+           min-width: 320px;
+           max-width: 420px;
+           margin: 50px auto;
+           padding: 30px 20px;
+           background-color: #fff;
+           border-radius: 12px;
+           box-shadow: 0 4px 12px rgba(138, 79, 255, 0.2);
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+
+.register-container h2 {
+    color: #6b21a8; /* match header color */
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+       .register-container input[type="text"],
+       .register-container input[type="email"],
+       .register-container input[type="password"],
+       .register-container input[type="file"],
+       .register-container select {
+           width: 100%;
+           padding: 12px 16px;
+           margin-bottom: 20px;
+           border: 1px solid #bca7ff;
+           border-radius: 10px;
+           font-size: 14px;
+           outline: none;
+           background-color: #faf7ff;
+           transition: 0.2s;
+       }
+
+       .register-container input:focus,
+       .register-container select:focus {
+           border-color: #8a4fff;
+           box-shadow: 0 0 5px rgba(138, 79, 255, 0.3);
+       }
+
+       .register-container button {
+           width: 100%;
+           padding: 10px 0;
+           background-color: #8a4fff;
+           color: white;
+           border: none;
+           border-radius: 10px;
+           font-size: 15px;
+           font-weight: 500;
+           cursor: pointer;
+           transition: 0.2s;
+       }
+
+       .register-container button:hover {
+           background-color: #6e32ff;
+           transform: translateY(-1px);
+       }
+
+.register-container a {
+    margin-top: 10px;
+    color: rgba(107, 33, 168, 0.8); /* slightly darker and more readable than 0.4 */
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.register-container a:hover {
+    color: rgba(107, 33, 168, 1); /* fully opaque on hover */
+    text-decoration: underline;
+}
+
+/* TABLE */
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center; /* centers cell content by default */
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center; /* ensures both headers and content are centered */
+}
+
+/* Purple table header – darker */
+table th {
+    background-color: #6b21a8;
+    color: white;
+}
+
+/* Sort links inside header */
+table th a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block; /* allows centering with width */
+    text-align: center;    /* center inside inline-block */
+    margin: 0 3px;         /* optional spacing between ▲ and ▼ */
+}
+
+table th a:hover {
+    text-decoration: underline;
+}
+
+table tr:nth-child(even) {
+    background-color: #e9d5ff;
+}
+
+
+/* SEARCH BOX */
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+/* Search text field */
+.search-box input[type="text"] {
+    flex: 1;
+    padding: 12px 16px;
+    border: 1px solid #a78bfa; /* darker light purple border */
+    border-radius: 12px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.2s;
+    background-color: #f3e8ff; /* slightly darker subtle lavender */
+}
+
+.search-box input[type="text"]:focus {
+    border-color: #6b21a8; /* darker purple on focus */
+    box-shadow: 0 0 5px rgba(107, 33, 168, 0.35);
+}
+
+/* Search button – darker purple */
+.search-box button {
+    padding: 6px 12px;
+    width: auto;
+    background-color: #6b21a8; /* darker purple */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.search-box button:hover {
+    background-color: #581c87; /* even darker purple on hover */
+    transform: translateY(-1px);
+}
+
+       /* Modern Login Form */
+       .login-container {
+           width: 33%;
+           min-width: 320px;
+           max-width: 420px;
+           margin: 50px auto;
+           padding: 30px 20px;
+           background-color: #fff;
+           border-radius: 12px;
+           box-shadow: 0 4px 12px rgba(138, 79, 255, 0.2);
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+
+       .login-container h2 {
+        color: #6b21a8; /* match header color */
+         margin-bottom: 25px;
+        text-align: center;
+        }
+
+
+       .login-container input[type="email"],
+       .login-container input[type="password"] {
+           width: 100%;
+           padding: 12px 16px;
+           margin-bottom: 20px;
+           border: 1px solid #bca7ff;
+           border-radius: 10px;
+           font-size: 14px;
+           outline: none;
+           background-color: #faf7ff;
+           transition: 0.2s;
+       }
+
+       .login-container input[type="email"]:focus,
+       .login-container input[type="password"]:focus {
+           border-color: #8a4fff;
+           box-shadow: 0 0 5px rgba(138, 79, 255, 0.3);
+       }
+
+       .login-container button {
+           width: 100%;
+           padding: 10px 0;
+           background-color: #8a4fff;
+           color: white;
+           border: none;
+           border-radius: 10px;
+           font-size: 15px;
+           font-weight: 500;
+           cursor: pointer;
+           transition: 0.2s;
+       }
+
+       .login-container button:hover {
+           background-color: #6e32ff;
+           transform: translateY(-1px);
+       }
